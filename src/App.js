@@ -6,7 +6,11 @@ import Filtro from './components/Filtro'
 import Footer from './components/Footer'
 import Ordenacao from './components/Ordenacao'
 import Carrinho from './components/Carrinho/Carrinho'
-
+import FogJunior from './foguete_junior.jpg'
+import FogBlaster from './foguete_blaster.jpg'
+import FogSingle from './foguete_single.jpg'
+import NavMega from './nave_megalodon.jpg'
+import NavClassic from './nave_classic.jpg'
 const Corpo = styled.div`
 width: 100%;
 padding: 0;
@@ -71,35 +75,35 @@ const naves = [
     id: 2,
     name: 'Nave Megalodon',
     value: Number(59.0).toFixed(2),
-    imageUrl: 'http://astro-rockets.surge.sh/static/media/06_nave_megalodon.2e95d729.jpg',
+    imageUrl: NavMega,
     descricao:"Robusta, comporta grupos de até 50 pessoas confortavelmente!"
   },
   {
     id: 3,
     name: 'Nave Classic',
     value: Number(49.0).toFixed(2),
-    imageUrl: 'http://astro-rockets.surge.sh/static/media/05_nave_classic.e5b4aa75.jpg',
+    imageUrl: NavClassic,
     descricao:"Visual clássico, com tecnologia de ponta!"
   },
   {
     id: 4,
     name: 'Foguete Junior',
     value: Number(20.0).toFixed(2),
-    imageUrl: 'http://astro-rockets.surge.sh/static/media/03_foguete_junior.d266e8ac.jpg',
+    imageUrl: FogJunior,
     descricao:"É ideal para o transporte de família com até 4 membros. Econômico e veloz!"
   },
   {
     id: 5,
     name: 'Foguete Single',
     value: Number(30.0).toFixed(2),
-    imageUrl: 'http://astro-rockets.surge.sh/static/media/01_foguete_single.8f1bf138.jpg',
+    imageUrl: FogSingle,
     descricao:"É ideal para o transporte de apenas um passageiro. Econômico e veloz"
   },
   {
     id: 6,
     name: 'Foguete Blaster',
     value:Number(40.0).toFixed(2),
-    imageUrl: 'http://astro-rockets.surge.sh/static/media/04_foguete_blaster.45811de2.jpg',
+    imageUrl: FogBlaster,
     descricao:"Comporta até 5 passageiros em uma viagem extremamente veloz!"
   },
   {

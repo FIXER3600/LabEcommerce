@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import Lup from './lupa.svg'
 const Inputheader = styled.input`
 	width: 30rem;
 	    height: 2rem;
@@ -65,7 +65,7 @@ export default class App extends React.Component {
 			<Header>
 				<H1Tela>LabEcommerce</H1Tela>
 				<Inputheader type="text" placeholder="Pesquisar..." value={this.props.query} onChange={this.props.buscaNome}  id="campoDeBusca" />
-				<Lupa src="http://astro-rockets.surge.sh/static/media/search_black_24dp.03bb87e7.svg"/>
+				<Lupa src={Lup}/>
 				<TotalItens>{this.props.totalItens()}</TotalItens>
 				<ImgTela onClick={this.props.paginaCarrinho} alt="Carrinho" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Font_Awesome_5_solid_shopping-cart.svg" />
 
